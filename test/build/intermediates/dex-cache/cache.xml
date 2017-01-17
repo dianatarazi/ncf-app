@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_8cc57e5fd7d8b7e5a7cb06b6b759f8557ff9e4fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_39920403b85a89dbec3f3390a7422bfdcfacd982/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_31a6104a9a3ba05a33e48f226d8b257919f6055c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_997dcd17c34bea6e0959083bb676bfc7dd8af68b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_49f06db827f2e01b2ca7ed8c113f98fc7f4914e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d50ab20951993a864b9d69e98960104c1132845f">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1f5e4fd005acee793cc00d640641c81ae50db3c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_a30b5116da6ba2ac25b3edfcd04e84f362d3c5a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_3d0f9bc6be31e6854b1613c891b2be801e1a6ac2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_13acb048eefd37b7dd368da9c58cc4334575eca7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_6bb3faff1a2c3ee14f0e552212de72a5da220bff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_ed4dc6524ec0c8b4e6693b05963b5c98ae880494/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_20c45d7fca00da851027b3ca8549cc933f54d15b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9c5188b3a2c560de3b56429033617d738d6bf11">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7f57d079e906da704eb1fd3636020965011f73b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_d9c3991efb292afbe32413ec950b9c314ebe4aae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_7f5af8e5eaab74ac2a9b1f32ccf7872aa9a81a8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_ce3225f717b2603c57033355ab6ed635d7829922/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8796570332dc048fd781812caea022c2805c5240/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/dianatarazi/Documents/ISP 2017/ncf-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_4ea637e7e0dd9eeec532b04630d6c7798efc763e/classes.dex" />
+    </item>
+
+</items>

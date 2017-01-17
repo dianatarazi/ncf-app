@@ -1,0 +1,33 @@
+<resources>
+    <!-- Strings related to Home page -->
+    <string name="app_name">NCF Student Guide</string>
+
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login">Sign In</string>
+    <string name="prompt_email">NCF Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="RememberMeCheckbox">Remember my info</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_forum_list">Items</string>
+    <string name="title_forum_detail">Forum Detail</string>
+    <string name="ProfFinderHeadline">Which professor are you looking for?</string>
+    <string name="gary_kalmanovich">Gary Kalmanovich</string>
+    <string name="matthew_lepinski">Matthew Lepinski</string>
+    <string name="professors_name">Professor\'s Name</string>
+    <string name="Prof_bio">Atqui admodum per ut. Te voluptua indoctum vix, possit audiam incorrupte usu te. Ea eius nostrum pertinacia eos, volutpat percipitur ei quo. Eu posse torquatos duo, possit appetere molestiae mei eu. No option aperiri pro.</string>
+    <string name="classes_text">Classes:</string>
+    <string name="office_location_text">Office location:</string>
+    <string name="office_hours_text">Office hours</string>
+    <string name="Prof_email_text">Email</string>
+    <string name="events_title">Events on Campus</string>
+</resources>
