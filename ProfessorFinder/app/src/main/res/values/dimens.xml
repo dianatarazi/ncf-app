@@ -2,4 +2,10 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="name">17dp</dimen>
+    <dimen name="position">15dip</dimen>
+    <dimen name="email">13dip</dimen>
+    <dimen name="office_location">12dip</dimen>
+    <dimen name="mail_location">12dip</dimen>
 </resources>
