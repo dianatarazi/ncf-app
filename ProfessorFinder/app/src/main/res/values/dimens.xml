@@ -4,7 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="name">17dp</dimen>
-    <dimen name="position">15dip</dimen>
+    <dimen name="facultyPosition">15dip</dimen>
     <dimen name="email">13dip</dimen>
     <dimen name="office_location">12dip</dimen>
     <dimen name="mail_location">12dip</dimen>
