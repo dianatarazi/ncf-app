@@ -30,7 +30,7 @@ import com.android.volley.toolbox.JsonArrayRequest;
 public class MainActivity extends Activity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
-    private static final String url = "http://studentguide.000webhostapp.com/getdata.php?";
+    private static final String url = "http://studentguide.000webhostapp.com/getdata.php";
     private ProgressDialog pDialog;
     private List<Faculty> facultyList = new ArrayList<Faculty>();
     private ListView listView;
@@ -51,10 +51,10 @@ public class MainActivity extends Activity {
         pDialog.show();
 
         //changing action bar color
-        getActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1b1b1b")));
+        //getActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1b1b1b")));
 
         //creating volley request object
-        JsonArrayRequest movieReq = new JsonArrayRequest(url,
+        JsonArrayRequest facultyReq = new JsonArrayRequest(url,
                 new Response.Listener<JSONArray>() {
                     @Override
                     public void onResponse(JSONArray response) {
@@ -67,22 +67,16 @@ public class MainActivity extends Activity {
 
                                 JSONObject obj = response.getJSONObject(i);
                                 Faculty faculty = new Faculty();
-                                faculty.setName(obj.getString("name"));
-                                movie.setThumbnailUrl(obj.getString("image"));
-                                movie.setRating(((Number) obj.get("rating"))
-                                        .doubleValue());
-                                movie.setYear(obj.getInt("releaseYear"));
+                                faculty.setName(obj.getString("members_full_name"));
+                                faculty.setThumbnailUrl(obj.getString("members_user_image"));
+                                faculty.setfacultyPosition(obj.getString("members_position"));
+                                faculty.setEmail(obj.getString("members_email_address"));
+                                faculty.setMailLocation(obj.getString("members_mail_location"));
+                                faculty.setOfficeLocation(obj.getString("members_office_location"));
 
-                                // Genre is json array
-                                JSONArray genreArry = obj.getJSONArray("genre");
-                                ArrayList<String> genre = new ArrayList<String>();
-                                for (int j = 0; j < genreArry.length(); j++) {
-                                    genre.add((String) genreArry.get(j));
-                                }
-                                movie.setGenre(genre);
 
-                                // adding movie to movies array
-                                movieList.add(movie);
+                                // adding faculty to faculty array
+                                facultyList.add(faculty);
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
@@ -104,13 +98,27 @@ public class MainActivity extends Activity {
         });
 
         // Adding request to request queue
-        AppController.getInstance().addToRequestQueue(movieReq);
+        AppController.getInstance().addToRequestQueue(facultyReq);
     }
 
-
-
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        hidePDialog();
     }
 
+    private void hidePDialog() {
+        if (pDialog != null) {
+            pDialog.dismiss();
+            pDialog = null;
+        }
+    }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
 
 }
