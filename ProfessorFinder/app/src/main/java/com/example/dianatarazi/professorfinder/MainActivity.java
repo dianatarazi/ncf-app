@@ -1,5 +1,7 @@
 package com.example.dianatarazi.professorfinder;
 
+import com.android.volley.Request;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.example.dianatarazi.professorfinder.adapter.ListAdapter;
 import com.example.dianatarazi.professorfinder.app.AppController;
 import com.example.dianatarazi.professorfinder.model.Faculty;
@@ -54,33 +56,36 @@ public class MainActivity extends Activity {
         //getActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1b1b1b")));
 
         //creating volley request object
-        JsonArrayRequest facultyReq = new JsonArrayRequest(url,
-                new Response.Listener<JSONArray>() {
+        JsonObjectRequest facultyReq = new JsonObjectRequest
+                (Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(JSONArray response) {
+                    public void onResponse(JSONObject response) {
                         Log.d(TAG, response.toString());
                         hidePDialog();
 
+
+
                         // Parsing json
                         for (int i = 0; i < response.length(); i++) {
-                            try {
+                            //try {
 
-                                JSONObject obj = response.getJSONObject(i);
-                                Faculty faculty = new Faculty();
-                                faculty.setName(obj.getString("members_full_name"));
-                                faculty.setThumbnailUrl(obj.getString("members_user_image"));
-                                faculty.setfacultyPosition(obj.getString("members_position"));
-                                faculty.setEmail(obj.getString("members_email_address"));
-                                faculty.setMailLocation(obj.getString("members_mail_location"));
-                                faculty.setOfficeLocation(obj.getString("members_office_location"));
+                                //JSONObject obj = response.getJSONObject(String.valueOf(i));
+
+                            Faculty faculty = new Faculty();
+                            faculty.setName(response.optString("members_full_name"));
+                            faculty.setThumbnailUrl(response.optString("members_user_image"));
+                            faculty.setfacultyPosition(response.optString("members_position"));
+                            faculty.setEmail(response.optString("members_email_address"));
+                            faculty.setMailLocation(response.optString("members_mail_location"));
+                            faculty.setOfficeLocation(response.optString("members_office_location"));
 
 
-                                // adding faculty to faculty array
-                                facultyList.add(faculty);
+                            // adding faculty to faculty array
+                            facultyList.add(faculty);
 
-                            } catch (JSONException e) {
+                            /*} catch (JSONException e) {
                                 e.printStackTrace();
-                            }
+                            }*/
 
                         }
 
