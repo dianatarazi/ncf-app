@@ -56,10 +56,10 @@ public class MainActivity extends Activity {
         //getActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1b1b1b")));
 
         //creating volley request object
-        JsonObjectRequest facultyReq = new JsonObjectRequest
-                (Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+        JsonArrayRequest facultyReq = new JsonArrayRequest(url,
+                new Response.Listener<JSONArray>() {
                     @Override
-                    public void onResponse(JSONObject response) {
+                    public void onResponse(JSONArray response) {
                         Log.d(TAG, response.toString());
                         hidePDialog();
 
@@ -67,25 +67,25 @@ public class MainActivity extends Activity {
 
                         // Parsing json
                         for (int i = 0; i < response.length(); i++) {
-                            //try {
+                            try {
 
-                                //JSONObject obj = response.getJSONObject(String.valueOf(i));
+                            JSONObject obj = response.getJSONObject(i);
 
                             Faculty faculty = new Faculty();
-                            faculty.setName(response.optString("members_full_name"));
-                            faculty.setThumbnailUrl(response.optString("members_user_image"));
-                            faculty.setfacultyPosition(response.optString("members_position"));
-                            faculty.setEmail(response.optString("members_email_address"));
-                            faculty.setMailLocation(response.optString("members_mail_location"));
-                            faculty.setOfficeLocation(response.optString("members_office_location"));
+                            faculty.setName(obj.optString("members_full_name"));
+                            faculty.setThumbnailUrl(obj.optString("members_user_image"));
+                            faculty.setfacultyPosition(obj.optString("members_position"));
+                            faculty.setEmail(obj.optString("members_email_address"));
+                            faculty.setMailLocation(obj.optString("members_mail_location"));
+                            faculty.setOfficeLocation(obj.optString("members_office_location"));
 
 
                             // adding faculty to faculty array
                             facultyList.add(faculty);
 
-                            /*} catch (JSONException e) {
+                            } catch (JSONException e) {
                                 e.printStackTrace();
-                            }*/
+                            }
 
                         }
 
